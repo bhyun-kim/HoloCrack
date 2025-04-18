@@ -34,7 +34,7 @@ project.fragment.lock.json
 artifacts/
 
 # ONNX model files (if you don't want to include them)
-*.onnx
+# *.onnx
 
 # Test images (if you don't want to include them)
 *.jpg
