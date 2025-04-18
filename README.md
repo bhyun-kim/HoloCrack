@@ -16,6 +16,29 @@ A C# application for crack detection and analysis using deep learning and comput
 - ONNX Runtime
 - Visual Studio 2019 or later
 
+## Build and Run
+
+### Using Command Line
+1. Navigate to the project directory:
+```bash
+cd path/to/HoloCrack
+```
+
+2. Build the project:
+```bash
+dotnet build
+```
+
+3. Run the application:
+```bash
+dotnet run
+```
+
+### Common Issues
+- If you encounter DLL loading issues, ensure that OpenCVSharp4 runtime files are in your output directory
+- Make sure the ONNX model file is placed in the correct location before running
+- Check that your input images are in supported formats (PNG, JPG, BMP)
+
 ## Project Structure
 
 - `Core/` - Core functionality implementation
