@@ -160,3 +160,9 @@ $RECYCLE.BIN/
 .DS_Store
 
 _NCrunch*
+
+# Ignore everything in Data folder
+Data/*
+
+# But keep sample_crack.jpg
+!Data/sample_crack.jpg
